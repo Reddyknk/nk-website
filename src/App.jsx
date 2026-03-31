@@ -10,7 +10,7 @@ function App() {
     },
     {
       title: 'FEA and Simulation',
-      description:git 
+      description:
         'Static, fatigue, thermal, and vibration analysis to reduce physical prototyping cycles.'
     },
     {
