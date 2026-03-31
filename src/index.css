@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #ece6db;
+  --bg-2: #ded4c3;
+  --sand: #f6f1e8;
+  --ink: #2c3b47;
+  --ink-deep: #1a2634;
+  --steel: #2d5b74;
+  --rust: #8f4b29;
+  --line: rgba(56, 63, 70, 0.22);
+  --line-dark: rgba(41, 49, 57, 0.4);
+  --soft-shadow: 0 12px 32px rgba(38, 45, 54, 0.13);
+
+  --font-body: 'Manrope', sans-serif;
+  --font-display: 'Chakra Petch', sans-serif;
+
+  font-family: var(--font-body);
+  line-height: 1.45;
+  font-weight: 500;
+  color: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 90% 12%, rgba(45, 91, 116, 0.2), transparent 38%),
+    radial-gradient(circle at 8% 88%, rgba(143, 75, 41, 0.16), transparent 44%),
+    linear-gradient(180deg, var(--bg), var(--bg-2));
+}
+
+main {
+  display: grid;
+  gap: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
